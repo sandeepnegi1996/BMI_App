@@ -7,31 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="appDiv">
-        <div class="heading_div">
+    <!--
+
+        //app backgroung color = #15CACA
+
+//heading color=#024150
+    -->
+    <div id="appDiv">
+        <div id="heading_div">
             <h1>BMI App</h1>
         </div>
 
-        <div class="input_div">
-
+        <div id="input_div">
+            <!--
+                color #084F87
+            -->
             Height : 
-            <input type="text" name="height" id="height_id">
-            <br>
+            <input type="number" name="height" id="height_id">
+            <br><br>
             Weight :
-            <input type="text" name="weight" id="weight_id">
-            <br>
+            <input type="number" name="weight" id="weight_id">
+            <br><br>
+            <center>
             <input type="button" value="Submit">
-
+        </center>
         </div>
 
-        <div class="result_div">
+        <div id="result_div">
             BMI Index :
             <input type="number" name="bmi_result" id="resut_id">
 
             <br>
-            Feedback  :
+        </div>
+        <div id="feedback_div">
+          <label for="">  Feedback  : </label>
             <br>
-            <textarea name="feedback" id="feedback_id" cols="30" rows="10">
+            <br>
+            <textarea name="feedback" id="feedback_id" cols="40" rows="10">
 
                 right now this is just the random text
             </textarea>
