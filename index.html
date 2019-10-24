@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,51 +7,41 @@
     <title>BMI_App</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <!--
-
-        //app backgroung color = #15CACA
-
-//heading color=#024150
-    -->
     <div id="appDiv">
         <div id="heading_div">
             <h1>BMI App</h1>
         </div>
 
         <div id="input_div">
-            <!--
-                color #084F87
-            -->
-            Height : 
-            <input type="number" name="height" id="height_id">
+            Height :
+            <input type="number" placeholder="height in metre" name="height" id="height_id">
             <br><br>
             Weight :
-            <input type="number" name="weight" id="weight_id">
+            <input type="number" placeholder="height in kg" name="weight" id="weight_id">
             <br><br>
             <center>
-            <input type="button" value="Submit" id="submit_id">
-        </center>
+                <input type="button" value="Submit" id="submit_id">
+            </center>
         </div>
 
         <div id="result_div">
             BMI Index :
             <input type="number" name="bmi_result" id="resut_id">
-
             <br>
         </div>
         <div id="feedback_div">
-          <label for="">  Feedback  : </label>
+            <label for=""> Feedback : </label>
             <br>
             <br>
             <textarea name="feedback" id="feedback_id" cols="40" rows="10">
-
                 right now this is just the random text
             </textarea>
         </div>
     </div>
 
     <script src="App.js"></script>
-
 </body>
+
 </html>
