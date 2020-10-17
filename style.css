@@ -28,12 +28,10 @@ body{
 }
 #heading_div{
     position: relative;
-    border:1px solid grey;
     border-radius: 20px;
     background-color: #EBEBEB;
     padding: 5px 5px;
     text-align: center;
-
 }
 #input_div
 {
@@ -62,7 +60,13 @@ body{
     margin-top: 10px;
     
 }
-#feedback_div > textarea{
-    border: 2px solid grey;
-    
+
+input,
+textarea {
+    border: none;
+    padding: 0.3em;
+}
+
+textarea {
+    width: 100%;
 }
