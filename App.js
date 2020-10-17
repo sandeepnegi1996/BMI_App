@@ -28,7 +28,6 @@ function Calculate()
     }
     else if(bmiResult>24.9)
     {
-        console.log("Loose some fat or muscle start doing cardio sessions");
         feedback_result.value="Loose some fat or muscle start doing cardio sessions";
         
     }
@@ -36,7 +35,6 @@ function Calculate()
 
 function main()
 {
-    console.log("script is running");
     submit_input.addEventListener('click',function () {
         Calculate();
     });
